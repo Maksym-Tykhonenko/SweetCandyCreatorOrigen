@@ -3,7 +3,7 @@ workflows:
     name: Sweet Candy Creator
     max_build_duration: 120
     integrations:
-      app_store_connect: SweetCandyCodemagic
+      app_store_connect: SweetCandyCreatorAPIKeyNew
     environment:
       ios_signing:
         distribution_type: app_store
