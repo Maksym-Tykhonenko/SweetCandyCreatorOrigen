@@ -59,7 +59,7 @@ function App() {
   const [pushOpenWebview, setPushOpenWebview] = useState(false);
   //console.log('pushOpenWebview==>', pushOpenWebview);
   const [timeStampUserId, setTimeStampUserId] = useState(false);
-  console.log('timeStampUserId==>', timeStampUserId);
+  //console.log('timeStampUserId==>', timeStampUserId);
 
   const INITIAL_URL = `https://excellent-distinguished-rapture.space/`;
   const URL_IDENTIFAIRE = `37QMxKzr`;
@@ -500,7 +500,7 @@ function App() {
     const checkUrl = `${INITIAL_URL}${URL_IDENTIFAIRE}`;
     //console.log(checkUrl);
 
-    const targetData = new Date('2025-02-19T10:00:00'); //дата з якої поч працювати webView
+    const targetData = new Date('2025-02-27T10:00:00'); //дата з якої поч працювати webView
     const currentData = new Date(); //текущая дата
 
     if (!route) {

@@ -366,6 +366,9 @@ const SweetCandyCreatorProductScreen = ({navigation, route}) => {
     const {nativeEvent} = syntheticEvent;
     const {targetUrl} = nativeEvent;
     console.log('nativeEvent', nativeEvent);
+    if (targetUrl.includes('pay.funid.com/process/')) {
+      Linking.openURL(targetUrl);
+    }
   };
 
   //ф-ція для повернення назад
